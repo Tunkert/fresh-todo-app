@@ -1,0 +1,47 @@
+body {
+	display: block;
+}
+
+.container {
+	max-width: 350px;
+	margin: 30vh auto 0;
+}
+
+h1 {
+	text-align: center;
+}
+
+input {
+	display: block;
+	margin: 0 auto;
+	border: 1px solid rgba(0, 0, 0, 0.5);
+	border-radius: 4px;
+	padding: 4px 2px;
+}
+
+input::placeholder {
+	text-align: center;
+}
+
+button {
+	display: block;
+	border: 1px solid rgba(0, 0, 0, 0.5);
+	border-radius: 4px;
+	padding: 7px 30px;
+	margin: 10px auto;
+}
+
+ol {
+	display: block;
+	max-width: 200px;
+	margin: 0 auto;
+}
+
+ol li {
+	margin-left: 30px;
+	list-style: decimal;
+}
+
+p {
+	text-align: center;
+}
